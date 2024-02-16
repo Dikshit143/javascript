@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- javascript is a dynamic programming need not to mention datatype -->
+    <script>
+        // primitive types 
+        /*
+        1.Number-e.g:1.25,25(include int, float);
+        2.Boolean e.g:True,False; 
+        3.Null
+        4.undefined
+        5.symbols
+        6.String
+        non -primitives or object type
+        1.Object
+        2.Array
+        3.Date
+        */
+        var a=25;
+        console.log(typeof a);
+        var b=45.78;
+        console.log(typeof a);
+        var c="Adithya";
+        console.log(typeof c);
+        var d='a';
+        console.log(typeof d);
+        var e;
+        console.log(typeof e);
+        var isMarried=false;
+        console.log(typeof isMarried);
+        var f=null;
+        console.log(typeof f);//object type
+
+        //ES6 2015-   symbols
+        const s1=Symbol();
+        // it will generate unique characters for every Symbol();e.g:hsgg889
+        console.log(s1);
+        console.log(typeof s1);
+        const s2=Symbol();
+        console.log(s2);
+        console.log(s1==s2);
+        var courses=["C","C++","JAVA"];
+        console.log(typeof courses);
+        console.log(courses);
+        var students={name:"Adithya",age:34};
+        console.log(typeof students);
+        console.log(students);
+        var date=new Date();
+        console.log(date);
+        console.log(typeof date);
+    </script>
+</body>
+</html>

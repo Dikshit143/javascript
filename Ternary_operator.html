@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const age=20;
+        const result=age>=18? "Eligible":"Not Eligible";
+        console.log(result);
+
+//handling null values
+        function welcome(name){
+            const result=name? name:"no Name";
+            console.log("Welcome ",result);
+        }
+        welcome("adithya");
+        welcome()
+        welcome(null);
+
+
+     user={name:"Joes",age:34};
+     user.name;
+     user.age;
+     
+     const greetings=()=>{
+        const name=user.name?user.name:"No Name";
+        return "Hello "+name;
+     }
+     console.log(greetings(user));
+
+
+
+    //  conditional chains
+   /* avg>=90  a grade
+        avg>=80 b grade
+         c grade
+         */
+const avg=40;
+const grade=avg>=90? "a grade":avg>=80? "b grade":"c grade"; 
+    console.log(grade);
+    </script>
+</body>
+</html>
